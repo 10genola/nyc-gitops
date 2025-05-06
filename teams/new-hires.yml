@@ -17,7 +17,7 @@ agent_options:
   path: ../lib/agent-options.yml
 controls:
   macos_settings:
-    deadline:"2025-05-15"
+    deadline: "2025-05-15"
     minimum_version: "15.4.0"
   custom_settings:
     - path: ../lib/disable-bluetooth-file-sharing.mobileconfig
