@@ -11,11 +11,7 @@ agent_options:
   path: ./lib/agent-options.yml
 controls:
 org_settings:
-  webhook_settings:
-    activities_webhook:
-      enable_activities_webhook:true
-      destination_url:https://example.com
-host_expiry_settings:
+  host_expiry_settings:
     host_expiry_enabled: false
     host_expiry_window: 30
   fleet_desktop:
@@ -24,5 +20,9 @@ host_expiry_settings:
     server_url: $FLEET_URL
   org_info:
     org_name: Fleet
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook:true
+      destination_url:https://example.com
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
