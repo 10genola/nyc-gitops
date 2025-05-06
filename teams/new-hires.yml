@@ -20,5 +20,5 @@ controls:
     - path: ../lib/remove-zoom-artifacts.script.sh
 team_settings:
   secrets:
-    - secret: "C7XWP6FR3JK2D8VBHQ59N1Y4TS3MEGZLA"
+    - secret: "T5JZ3FB7W9P1L6K4N2V8X3Q7Y5G1HASDM"
 software:
